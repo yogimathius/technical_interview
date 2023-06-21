@@ -1,4 +1,5 @@
 ### Get Employees by Department (Arrays Practice)
+
 You are working on a Node.js application that manages a list of employees in a company. The employee data is represented as an array of arrays, where each inner array contains information about an employee. The inner array follows the format `[name, position, department]`.
 
 Your task is to implement a function that retrieves all the employees in a specific department from the employee data array.
@@ -25,3 +26,40 @@ const employees = [
   ['David Lee',    'Quality Assurance', 'Engineering']
 ];
 ```
+
+<!-- define function -->
+<!-- 2 arguments, employees array and department -->
+<!-- define empty array of names -->
+<!-- iterate over array of employees -->
+<!-- on employee item, grab department by array index (2) -->
+<!-- check employee department equals department argument -->
+<!-- if true, push employee name into names array -->
+<!-- return name of arrays -->
+
+function getEmployeesByDepartment(employeesArg, department) {
+  <!-- define empty array of names -->
+  const names = []
+
+  <!-- iterate over array of employees -->
+  for (const employee of employeesArg) {
+
+  <!-- on employee item, grab department by array index (2) -->
+    const employeeDepartment = employee[2]
+
+
+  <!-- check employee department equals department argument -->
+    if (employeeDepartment === department) {
+      const employeeName = employee[0]
+      names.push(employeeName)
+    }
+  <!-- if true, push employee name into names array -->
+  }
+  return names;
+  <!-- return name of arrays -->
+}
+
+console.log(getEmployeesByDepartment(employees, 'Engineering'))
+<!-- Output: ['John Doe', 'David Lee'] -->
+
+console.log(getEmployeesByDepartment(employees, 'Marketing'))
+<!-- Output: [] -->

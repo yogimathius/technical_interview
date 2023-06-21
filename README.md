@@ -2,14 +2,15 @@
 
 This breakout lecture focuses on hands-on problem-solving for technical interviews. We will cover two types of interview questions: "White Board Interview" style and "Pair Programming / Code Review and Refactoring" style.
 
+-------------------------------------------
+
 ## Agenda
 
 1. Introduction
    - [ ] Whiteboard Interview vs Code Review Interview
 
 2. White Board Interview Style Questions 
-   - [ ] Introduce the first sample question: "Get Employees by Department."
-   - [ ] Present the problem statement and requirements.
+   - [ ]  "Get Employees by Department.": Present the problem statement and requirements.
    - [ ] Discuss the problem-solving approach:
      - [ ] Ask questions to clarify the problem.
      - [ ] Think aloud and discuss potential solutions.
@@ -19,14 +20,15 @@ This breakout lecture focuses on hands-on problem-solving for technical intervie
 3. Q&A and Discussion
 
 4. Pair Programming / Code Review and Refactoring Style Questions 
-   - [ ] Introduce the second type of interview question and its purpose.
-   - [ ] Present the problem statement and requirements.
+   - [ ] "Code Review": Present the problem statement and requirements.
    - [ ] Discuss the problem-solving approach:
      - [ ] Ask questions to clarify the problem.
      - [ ] Think aloud and discuss potential solutions.
      - [ ] Demonstrate pair programming, code review, and refactoring techniques.
 
 5. Q&A and Wrap-up 
+
+-------------------------------------------
 
 ## For Whiteboard Interviews
 
@@ -61,6 +63,8 @@ This breakout lecture focuses on hands-on problem-solving for technical intervie
 - Consider edge cases and test them explicitly.
 - Discuss the expected output and verify if your solution matches.
 
+-------------------------------------------
+
 ## For Code Review Interviews
 
 ### Understand the code:
@@ -73,7 +77,7 @@ This breakout lecture focuses on hands-on problem-solving for technical intervie
 
 - Evaluate the code for readability, following coding standards, and adhering to best practices.
 - Look for areas where the code can be optimized or improved.
-C- heck if the code is modular and follows principles such as DRY (Don't Repeat Yourself) and separation of concerns.
+- Check if the code is modular and follows principles such as DRY (Don't Repeat Yourself) and separation of concerns.
 
 ### Identify potential bugs and vulnerabilities:
 
@@ -98,6 +102,8 @@ C- heck if the code is modular and follows principles such as DRY (Don't Repeat 
 - Recap the main points discussed during the code review.
 - Provide a concise summary of the code's strengths and areas for improvement.
 - Conclude the review on a positive note, acknowledging any good practices or well-implemented features.
+
+-------------------------------------------
 
 ## Summary
 

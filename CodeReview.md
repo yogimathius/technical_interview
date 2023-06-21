@@ -1,8 +1,10 @@
 ### Code Review: Generate Student Report
+
 You have been given a piece of code that is intended to generate a report based on a list of students and their grades. The code has been written by another developer, but it contains several bad practices and could be improved. Your task is to review the code and provide recommendations on how to improve it.
 
 Here is the code:
 
+<!-- Original -->
 ```
 const students = [
   { name: "Alice", grade: 85 },
@@ -26,3 +28,26 @@ function generateReport(s) {
 
 Your task is to review the code and provide recommendations for improvement. Focus on the bad practices present in the code and suggest better approaches or best practices that can be followed. Consider factors such as code readability, efficiency, error handling, and overall code structure.
 
+<!-- Updated -->
+```
+const students = [
+  { name: "Alice", grade: 85 },
+  { name: "Bob", grade: 90 },
+  { name: "Charlie", grade: 78 },
+  { name: "David", grade: 92 },
+  null
+];
+
+function generateReport(studentsArray) {
+  let report = "";
+  for (const student of studentsArray) {
+    if (student) {
+      report += `Student Name: ${student.name ? student.name : "name not found"}\n`;
+      report += `Grade: ${student.grade ? student.grade : "grade not found"}\n`;
+      report += "-------------------------------------\n";
+    }
+  }
+  console.log(report);
+  return report;
+}
+```
