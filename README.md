@@ -10,7 +10,7 @@ This breakout lecture focuses on hands-on problem-solving for technical intervie
    - [ ] Whiteboard Interview vs Code Review Interview
 
 2. White Board Interview Style Questions 
-   - [ ]  "Get Employees by Department.": Present the problem statement and requirements.
+   - [ ] "Average Student Scores.": Present the problem statement and requirements.
    - [ ] Discuss the problem-solving approach:
      - [ ] Ask questions to clarify the problem.
      - [ ] Think aloud and discuss potential solutions.
